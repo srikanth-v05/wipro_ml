@@ -336,7 +336,7 @@ if selected_phase == "Read Data":
     st.subheader("Read performance report from multiple format (CSV data and excel data) ")
     st.write("Upload a performance report file to process data for Anar1.")
     # File uploader for Anar1
-    uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
+    uploaded_file = st.file_uploader("Upload a CSV file", type=["csv","excel"])
     if uploaded_file is not None:
         with st.spinner("Processing the file..."):
             load_and_process_data(uploaded_file)
