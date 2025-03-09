@@ -3,6 +3,8 @@
 ## Overview
 This application is a comprehensive student performance analysis and improvement system built with Streamlit. It processes student performance data, analyzes strengths and weaknesses, recommends personalized learning paths, facilitates peer learning through student pairing, tracks improvements using machine learning, and generates detailed performance reports.
 
+deployed link: https://wiproml.streamlit.app/
+
 ## Features
 
 The application consists of seven main phases:
